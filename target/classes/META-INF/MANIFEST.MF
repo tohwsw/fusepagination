@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1472176354413
+Build-Jdk: 1.7.0_60
+Built-By: waynetoh
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Postgres to Postgres
+Bundle-SymbolicName: fusepagination
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.redhat.fuse;uses:="org.apache.camel,org.slf4j";versi
+ on="0.0.1.SNAPSHOT"
+Import-Package: org.apache.camel;version="[2.15,3)",org.osgi.service.blu
+ eprint;version="[1.0.0,2.0.0)",org.postgresql.ds,org.slf4j;version="[1.
+ 7,2)"
+Tool: Bnd-1.50.0
